@@ -5,7 +5,8 @@ class Header extends PureComponent {
   render() {
     return (
       <header className="component-header">
-        Hackकर - Coding challeges
+        Hackकर <br />
+        Coding challege
       </header>
     );
   }

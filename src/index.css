@@ -1,5 +1,7 @@
 body {
-  margin: 0;
-  padding: 0;
+  align-items: center;
+  width: 350px;
+  box-shadow: 0 3px 15px #ccc;
+  padding: 10px;
   font-family: sans-serif;
 }
