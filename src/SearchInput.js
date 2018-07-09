@@ -4,17 +4,12 @@ import PropTypes from "prop-types";
 import "./SearchInput.css";
 
 class SearchInput extends PureComponent {
-  
   handleChange = event => {
-  // Function to handele change
+    // Function to handele change
   };
 
   render() {
-    return (
-      <div className="component-search-input">
-        {/* Search Input  */}
-      </div>
-    );
+    return <div className="component-search-input">{/* Search Input  */}</div>;
   }
 }
 SearchInput.propTypes = {
