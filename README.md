@@ -6,31 +6,31 @@ Supply background / context for the why the task is required.
 
 > **Private Note:** Add private notes (explanations) for internal use, like this.
 
-### Task 1: Write a function _[change title]_
+### Task 1: Write a search function
+Complete the `src/SearchInput.js` to search for emoji from the `src/emojiList.json` file.
 
-Describe the function that needs to be written.
+> **Private Note:** If we want to increase the standard we can ask them to implement a function that could copy the emoji to cipboard on click.
 
-Write something about tests, if there's anything special about it.
+### Task 2: Build an API to search for gif's
 
-> **Private Note:** Add private notes, if required, about how to build the task source code / how to evaluate, etc.
+Get data from GiphyAPI and implement search function to get a list of gif's.
 
-### Task 2: Build an API _[change title]_
+Giphy API documentation `https://developers.giphy.com/docs/`
 
-Describe the changes that need to be made in the repository to get an incomplete, or broken API working. It might make sense to use the function (or another version of it) in this API so that there's continuity.
+### Task 3: Modify the front end to display gif
 
-Write something about tests, if there's anything special about it.
+Modify the front end to display the list of gif's.
 
-> **Private Note:** Add private notes, if required, about how to build the task source code / how to evaluate, etc.
-
-### Task 3: Build the front-end, consuming the API _[change title]_
-
-Describe how a UI needs to be built / fleshed out / updated to use an API (probably the one built in the previous task).
-
-Write something about tests, if there's anything special about it.
-
-> **Private Note:** Add private notes, if required, about how to build the task source code / how to evaluate, etc.
+[Example](https://giphy.com/explore/search-engine)
 
 ### Additional Task During Pair-Programming Session
+Ask them to impliment a function to copy embed code on click
 
-Write about tasks that would be appropriate to attempt during a pair programming session, to further test the dev's skills.
+### How to install 
+`npm install`
+
+### How to Run
+`npm Start`
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+
