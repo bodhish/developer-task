@@ -1,25 +1,23 @@
 # Web Developer Task
 
-## The Gif Search Engine
+## Gif Search Engine
 
-Supply background / context for the why the task is required.
-
-> **Private Note:** Add private notes (explanations) for internal use, like this.
+The task check the basic knowledge of the candidate with Java Script.
 
 ### Task 1: Write a search function
 Complete the `src/SearchInput.js` to search for emoji from the `src/emojiList.json` file.
 
-> **Private Note:** If we want to increase the standard we can ask them to implement a function that could copy the emoji to cipboard on click.
+> **Private Note:** If the task looks simple we can ask them to implement a function that could copy the emoji to cipboard on click.
 
 ### Task 2: Build an API to search for gif's
 
 Get data from GiphyAPI and implement search function to get a list of gif's.
 
-Giphy API documentation `https://developers.giphy.com/docs/`
+[Giphy API documentation](`https://developers.giphy.com/docs/`)
 
 ### Task 3: Modify the front end to display gif
 
-Modify the front end to display the list of gif's.
+Make the frontend list the recived list of gif.
 
 [Example](https://giphy.com/explore/search-engine)
 
