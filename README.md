@@ -13,11 +13,11 @@ Complete the `src/SearchInput.js` to search for emoji from the `src/emojiList.js
 
 Get data from GiphyAPI and implement search function to get a list of gif's.
 
-[Giphy API documentation](`https://developers.giphy.com/docs/`)
+[Giphy API documentation](https://developers.giphy.com/docs/)
 
 ### Task 3: Modify the front end to display gif
 
-Update the frontend to update to display the list of recived gif's
+Update the frontend to display the list of gifs.
 
 [Example](https://giphy.com/explore/search-engine)
 
