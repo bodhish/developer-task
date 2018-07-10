@@ -17,7 +17,7 @@ Get data from GiphyAPI and implement search function to get a list of gif's.
 
 ### Task 3: Modify the front end to display gif
 
-Make the frontend list the recived list of gif.
+Update the frontend to update to display the list of recived gif's
 
 [Example](https://giphy.com/explore/search-engine)
 
