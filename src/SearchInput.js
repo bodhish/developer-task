@@ -5,7 +5,7 @@ import "./SearchInput.css";
 
 class SearchInput extends PureComponent {
   handleChange = event => {
-    // Function to handele change
+    // Function to handle change
   };
 
   render() {
