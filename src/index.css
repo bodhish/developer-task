@@ -1,7 +1,10 @@
 body {
-  align-items: center;
-  width: 350px;
-  box-shadow: 0 3px 15px #ccc;
   padding: 10px;
   font-family: sans-serif;
+}
+
+root {
+  margin:  auto;
+  width: 350px;
+  box-shadow: 0 3px 15px #ccc;
 }
