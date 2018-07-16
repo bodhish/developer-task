@@ -5,11 +5,17 @@ import "./SearchInput.css";
 
 class SearchInput extends PureComponent {
   handleChange = event => {
-    // Function to handle change
+    this.props.textChange(event);
   };
 
   render() {
-    return <div className="component-search-input">{/* Search Input  */}</div>;
+    return (
+      <div className="component-search-input">
+        <div>
+          <input onChange={this.handleChange} />
+        </div>
+      </div>
+    );
   }
 }
 SearchInput.propTypes = {
