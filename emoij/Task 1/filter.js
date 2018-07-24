@@ -14,4 +14,4 @@ var filterEmoji = function (searchText, maxResults) {
     .slice(0, maxResults);
 }
 
-console.log(filterEmoji("Wave",10))
+console.log(filterEmoji("Smile",10))
