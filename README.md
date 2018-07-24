@@ -2,34 +2,47 @@
 
 ## Emoji Search
 
-Supply background / context for the why the task is required.
+All the companies use feedback forms to collect the user feedback on the products.
 
-> **Private Note:** Add private notes (explanations) for internal use, like this.
+Most of these text editors in the feedback forms are way old and does not support emoji’s
 
-### Task 1: Write a function _[change title]_
+Users like to express their reactions with emoji in these feedback forms.
 
-Describe the function that needs to be written.
+We’d like you to build a text editor that will let users express more using emoji’s inline.
 
-Write something about tests, if there's anything special about it.
+### Task 1: Write a function to search for emoji
 
-> **Private Note:** Add private notes, if required, about how to build the task source code / how to evaluate, etc.
+Create a function that will search for emoji in the `assets/emojiList.json` file when you type a word starting with a colon
 
-### Task 2: Build an API _[change title]_
+        Example :happy
 
-Describe the changes that need to be made in the repository to get an incomplete, or broken API working. It might make sense to use the function (or another version of it) in this API so that there's continuity.
+Required:
 
-Write something about tests, if there's anything special about it.
+  1, The function should return a list of emoji's with the title
 
-> **Private Note:** Add private notes, if required, about how to build the task source code / how to evaluate, etc.
+  2, The function should search the title and keyword(json file) to find the match.
+
+  3, Null responses should be handled with an appropriate message
+
+### Task 2: Build an Emoji Search API
+
+Use the function written in task 1 to create an API that will enable users to add a favorite tag for the selected emoji.
+
+Required
+
+  1, GET request that will return a list of emoji's
+    
+  2, POST request that will allow users to add a favorite tag for selected emoji
+
 
 ### Task 3: Build the front-end, consuming the API _[change title]_
 
-Describe how a UI needs to be built / fleshed out / updated to use an API (probably the one built in the previous task).
+The text editor in the task should 
 
-Write something about tests, if there's anything special about it.
+1, Start listing the emoji's when the user starts typing with a colon
 
-> **Private Note:** Add private notes, if required, about how to build the task source code / how to evaluate, etc.
+2, Replace the text with the emoji when user select an emoji
+
+
 
 ### Additional Task During Pair-Programming Session
-
-Write about tasks that would be appropriate to attempt during a pair programming session, to further test the dev's skills.
