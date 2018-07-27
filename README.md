@@ -1,5 +1,16 @@
 # Web Developer Task
 
+Modified version:
+
+Write function to return possible smileys given an input string
+Implement API with a POST route that accepts and stores comments, and a GET route that returns stored comments.
+Update UI scaffold to:
+
+Use function in React UI to implement an auto-complete.
+Update UI with message when a post comment button is pressed.
+POST the message to the API for storage.
+Reloading the UI should render stored messages.
+
 ## Emoji Search
 
 All the companies use feedback forms to collect the user feedback on the products.
