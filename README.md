@@ -11,6 +11,9 @@ Update UI with message when a post comment button is pressed.
 POST the message to the API for storage.
 Reloading the UI should render stored messages.
 
+Back story 
+https://slack.engineering/rebuilding-slacks-emoji-picker-in-react-bfbd8ce6fbfe
+
 ## Emoji Search
 
 All the companies use feedback forms to collect the user feedback on the products.
