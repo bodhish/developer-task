@@ -22,6 +22,7 @@ Emoji's are everywhere now, these text editors in the feedback forms are now exp
 
 We’d like you to build a text editor that will let users express more using emoji’s inline.
 
+
 ### Task 1: Write a function to search for emoji
 
 Create a function that will search for emoji in the `assets/emojiList.json` file for a given input.
